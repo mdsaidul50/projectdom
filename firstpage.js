@@ -6,7 +6,7 @@ document.getElementById("btn").addEventListener("click",function(){
         const addpassword= document.getElementById("password-text");
         const inputpasswordfield = addpassword.value;
     //dap3
-    if(inputemailfield==="mdsaidul@gmail.com" && inputpasswordfield=== "jobarjamai"){
+    if(inputemailfield==="joba@gmail.com" && inputpasswordfield=== "jobarjamai"){
         window.location.href = "bank.html"; 
     }
     else{

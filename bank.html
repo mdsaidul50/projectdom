@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-2xl font-bold text-center mt-7">Jamar account</h1>
+    </header>
+    <main>
+        <section>
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+            <div class="bg-blue-500 py-6 px-8 rounded-md font-medium text-cyan-50 text-lg ">
+                <h1>Deposit</h1>
+                <h2>$<span id="Deposit-values">00</span></h2>
+            </div>
+            <div class="bg-blue-500 py-6 px-8 rounded-md font-medium text-cyan-50 text-lg ">
+                <h1>Withraw</h1>
+                <h2>$<span id="withdraw-values">00</span></h2>
+            </div>
+            <div class="bg-blue-500 py-6 px-8 rounded-md font-medium text-cyan-50 text-lg ">
+                <h1>Balanse</h1>
+                <h2>$<span id="Balanse-values">1200</span></h2>
+            </div>
+            
+        </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto mt-8">
+                <div class="bg-emerald-500 py-6 px-8 rounded-md font-medium text-cyan-50 text-lg ">
+                    <h1>Deposit</h1>
+                    <input id="input-deposit" type="text" placeholder="Enter your amount" class="block rounded-md text-black">
+                    <button id="btn-deposit" class="bg-orange-500 px-3 py-1 rounded-md mt-2 hover:bg-orange-600 font-medium text-white">Submit</button>
+                </div>
+               
+                <div class="bg-emerald-500 py-6 px-8 rounded-md font-medium text-cyan-50 text-lg ">
+                    <h1>Deposit</h1>
+                    <input id="input-withdraw" type="text" placeholder="Enter your amount" class="block rounded-md text-black">
+                    <button id="btn-withdraw" class="bg-orange-500 px-3 py-1 rounded-md mt-2 hover:bg-orange-600 font-medium text-white">Submit</button>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+    <script src="second.js"></script>
+    <script src="third.js"></script>
+</body>
+</html>
